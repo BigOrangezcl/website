@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+			    padding: 0;
+			}
+			body{
+				width: 800px;
+				height: 535px;
+				background: url(img/bg.jpg);
+				cursor: url(img/my.cur),url(img/my.png),auto;
+				margin: 0 auto;
+			}
+			.header{
+				width: 800px;
+				height: 100px;
+				background: #320000;
+				position: relative;
+			}
+			.header h1{
+				font-family: "微软雅黑";
+				color: #fe0300;
+				padding-top: 15px;
+				margin-left:30px ;
+				position: absolute;
+			}
+			.header h2{
+				font-family: "微软雅黑";
+				color: #ffffff;
+				padding-top: 30px;
+				margin-left:120px ;
+				position: absolute;
+				text-shadow: 2px 6px 5px #FE0300;
+			}
+			.container{
+				width: 800px;
+				height: 400px;
+				margin: 0 auto;
+				background: #FFFFFF;
+				border-right: 1px solid #000000;
+			}
+			.aside{
+				width: 170px;
+				height: 400px;
+				background: url(img/bg_lt.png);
+				float: left;
+			}
+			.aside ul{
+				list-style-type: none;
+				padding-top: 170px;
+			}
+			.aside ul li{
+				padding-top: 20px;
+				
+			}
+			.aside ul li a{
+				color: #000000;
+				text-decoration: none;
+				background: url(img/btn.png) no-repeat;
+				padding: 10px 45px;
+			}
+			.aside ul li a:hover{
+				background: url(img/btn_hover.png) no-repeat;
+				padding: 10px 45px;
+			}
+			.main{
+				width:625px;
+				height: 400px;
+				float: right;
+				position: relative;
+			}
+			fieldset{
+				width: 395px;
+				height: 205px;
+				border: 1px solid #000000;
+				border-radius: 2.5%;
+				text-align:center;
+				margin-top: 25px;
+				margin-left: 125px;
+			}
+			.tou{
+				text-align: left;
+				margin-left: 10px;
+				margin-top: 10px;
+			}
+			.list{
+				text-align: left;
+				margin-left: 45px;
+				margin-top: 20px;
+			}
+			.pic{
+				margin-left: 110px;
+			}
+			.pic img{
+				width: 125px;
+				height: 95px;
+				margin-left: 15px;
+				float: left;
+				border: 1px solid #000000;
+				border-radius: 5%;
+				margin-top: 45px;
+			}
+			.footer{
+				width: 800px;
+				height: 50px;
+				background: #320000;
+			}
+			.footer p{
+				text-align: center;
+				color: #FFFFFF;
+				padding-top: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--头部开始-->
+		<div class="header">
+			<h1>HTML5+CSS3</h1>
+			<h2>HTML5+CSS3</h2>
+		</div>
+		<!--内容开始-->
+		<div class="container">
+			<!--侧边栏-->
+			<div class="aside">
+				<ul>
+					<li><a href="index.html">最新消息</a></li>
+					<li><a href="flash.html">flash动画</a></li>
+					<li><a href="short.html">短片欣赏</a></li>
+					<li><a href="music.html">音乐欣赏</a></li>
+					<li><a href="contact.html">留&nbsp;&nbsp;言&nbsp;&nbsp;板</a></li>
+				</ul>
+			</div>
+			<!--主要内容-->
+			<div class="main">
+				<fieldset id="">
+					<legend>最新消息</legend>
+					<div class="tou">
+						<p>"宠物认养活动"开始啰！</p>
+						<p>即日起到10月30日止~</p>
+						<p>领养条件：</p>
+					</div>
+					<div class="list">
+						<ul>
+							<li>有爱心、有耐心。</li>
+							<li>认养认未满18岁，需取得家长同意。</li>
+							<li>有适合的饲养环境。</li>
+							<p>领养宠物专线：(07)711****</p>
+						</ul>
+					</div>
+				</fieldset>
+				
+				
+						
+				<!--图片-->
+				<div class="pic">
+					<div class="box">
+						<img src="img/puppy1.png"/>
+					</div>
+					<div class="box">
+						<img src="img/puppy2.png"/>
+					</div>
+					<div class="box">
+						<img src="img/puppy3.png"/>
+					</div>
+			</div>
+			</div>
+		</div>
+		<!--底部开始-->
+		<div class="footer">
+			<p>欢迎光临我的网站！！</p>
+		</div>
+	</body>
+</html>

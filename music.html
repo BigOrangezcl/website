@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<style type="text/css">
+			*{
+				margin: 0;
+			    padding: 0;
+			}
+			body{
+				width: 800px;
+				height: 535px;
+				background: url(img/bg.jpg);
+				cursor: url(img/my.cur),url(img/my.png),auto;
+				margin: 0 auto;
+			}
+			.header{
+				width: 800px;
+				height: 100px;
+				background: #320000;
+				position: relative;
+			}
+			.header h1{
+				font-family: "微软雅黑";
+				color: #fe0300;
+				padding-top: 15px;
+				margin-left:30px ;
+				position: absolute;
+			}
+			.header h2{
+				font-family: "微软雅黑";
+				color: #ffffff;
+				padding-top: 30px;
+				margin-left:120px ;
+				position: absolute;
+				text-shadow: 2px 6px 5px #FE0300;
+			}
+			.container{
+				width: 800px;
+				height: 400px;
+				margin: 0 auto;
+				background: #FFFFFF;
+				border-right: 1px solid #000000;
+			}
+			.aside{
+				width: 170px;
+				height: 400px;
+				background: url(img/bg_lt.png);
+				float: left;
+			}
+			.aside ul{
+				list-style-type: none;
+				padding-top: 170px;
+			}
+			.aside ul li{
+				padding-top: 20px;
+				
+			}
+			.aside ul li a{
+				color: #000000;
+				text-decoration: none;
+				background: url(img/btn.png) no-repeat;
+				padding: 10px 45px;
+			}
+			.aside ul li a:hover{
+				background: url(img/btn_hover.png) no-repeat;
+				padding: 10px 45px;
+			}
+			.main{
+				margin: 0 auto;
+			}
+			
+			.main img{
+				border: 2px solid #320000;
+				border-radius:20px;
+				margin-top: 30px;
+				margin-left:120px ;
+			}
+			.f{
+				display: block;
+				margin-left: 120px;
+				position: relative;
+			}
+		     .f p{
+		     	position: absolute;
+		     	margin-left: 170px;
+		     	margin-top: 10px;
+		     }
+			.f audio{
+				margin-top: 30px;
+				margin-left: 120px;
+			}
+		
+			.footer{
+				width: 800px;
+				height: 50px;
+				background: #320000;
+			}
+			.footer p{
+				text-align: center;
+				color: #FFFFFF;
+				padding-top: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--头部开始-->
+		<div class="header">
+			<h1>HTML5+CSS3</h1>
+			<h2>HTML5+CSS3</h2>
+		</div>
+		<!--内容开始-->
+		<div class="container">
+			<!--侧边栏-->
+			<div class="aside">
+				<ul>
+					<li><a href="index.html">最新消息</a></li>
+					<li><a href="flash.html">flash动画</a></li>
+					<li><a href="short.html">短片欣赏</a></li>
+					<li><a href="music.html">音乐欣赏</a></li>
+					<li><a href="contact.html">留&nbsp;&nbsp;言&nbsp;&nbsp;板</a></li>
+				</ul>
+			</div>
+			<!--主要内容-->
+			<div class="main">
+				<img src="img/music.gif"/>
+				
+			</div>
+				
+				<!--加入音乐-->
+				<div class="f">
+					<p>请按下播放键聆听第一首音乐</p>
+					<audio controls="controls" width="320px" height="180px">
+						<source src="img/music.mp3" type="audio/mp3"/>
+					您的浏览器不支持audio播放模式！
+					</audio></br>
+					<p>请按下播放键聆听第二首音乐</p>
+					<audio controls="controls" width="320px" height="180px">
+						<source src="img/music1.mp3" type="audio/mp3"/>
+					您的浏览器不支持audio播放模式！
+					</audio>
+				</div>
+		</div>
+			<!--底部开始-->
+		<div class="footer">
+			<p>欢迎光临我的网站！！</p>
+		</div>
+	</body>
+</html>
+
